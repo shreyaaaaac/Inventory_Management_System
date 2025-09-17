@@ -14,7 +14,7 @@ class IMS:
     def __init__(self,root):
         self.root=root
         self.root.geometry("1350x700+110+80")
-        self.root.title("Inventory Management System | Nishant Gupta")
+        self.root.title("Inventory Management System | Shreyaa")
         self.root.resizable(False,False)
         self.root.config(bg="white")
 
@@ -67,7 +67,7 @@ class IMS:
         self.lbl_sales.place(x=650,y=300,height=150,width=300)
 
         #------------ footer -----------------
-        lbl_footer=Label(self.root,text="IMS-Inventory Management System | Developed by Nishant Gupta\nFor any Technical Issues Contact: 9899459288",font=("times new roman",12),bg="#4d636d",fg="white").pack(side=BOTTOM,fill=X)
+        lbl_footer=Label(self.root,text="IMS-Inventory Management System | Developed by Shreyaa\nFor any Technical Issues Contact: 9899459288",font=("times new roman",12),bg="#4d636d",fg="white").pack(side=BOTTOM,fill=X)
 
         self.update_content()
 #-------------- functions ----------------

@@ -10,7 +10,7 @@ class billClass:
     def __init__(self,root):
         self.root=root
         self.root.geometry("1350x700+110+80")
-        self.root.title("Inventory Management System | Nishant Gupta")
+        self.root.title("Inventory Management System | Shreyaa")
         self.root.resizable(False,False)
         self.root.config(bg="white")
         self.cart_list=[]
@@ -28,7 +28,7 @@ class billClass:
         self.lbl_clock.place(x=0,y=70,relwidth=1,height=30)
 
         #------------ footer -----------------
-        lbl_footer=Label(self.root,text="IMS-Inventory Management System | Developed by Nishant Gupta\nFor any Technical Issues Contact: 9899459288",font=("times new roman",10),bg="#4d636d",fg="white").pack(side=BOTTOM,fill=X)
+        lbl_footer=Label(self.root,text="IMS-Inventory Management System | Developed by Shreyaa\nFor any Technical Issues Contact: 9899459288",font=("times new roman",10),bg="#4d636d",fg="white").pack(side=BOTTOM,fill=X)
 
         #-------------- product frame -----------------
         ProductFrame1=Frame(self.root,bd=4,relief=RIDGE,bg="white")
